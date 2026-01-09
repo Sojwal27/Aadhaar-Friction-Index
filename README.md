@@ -68,4 +68,176 @@ Aadhaar-Friction-Index/
 ├── requirements.txt     # Project dependencies
 ├── LICENSE              # MIT License
 └── README.md            # Project documentation
+
+```
+
+## 🛠️ Installation
+
+### Prerequisites
+
+- Python 3.8+
+
+- pip
+
+- Jupyter Notebook / JupyterLab (optional)
+
+### Setup Instructions
+
+- Clone repository
+
+``` bash
+
+git clone https://github.com/Yogiii13/Aadhaar-Friction-Index-.git
+cd Aadhaar-Friction-Index-
+```
+
+- Create virtual environment
+
+```bash
+python -m venv venv
+
+# Activate environment
+# Windows
+venv\\Scripts\\activate
+# Linux / macOS
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## 📊 Data Sources
+
+UIDAI (Unique Identification Authority of India) – Aadhaar enrolment & update statistics
+
+Census of India – Population & demographic baselines
+
+State-level public datasets – Service access indicators
+
+All datasets used are publicly available and aggregated. No personal or private data is used.
+
+## 🔬 Methodology (Planned)
+
+The Aadhaar Friction Index (AFI) will be constructed using a weighted composite framework:
+
+Component
+
+Description
+
+Enrollment Friction
+
+Gaps between population and enrolment counts
+
+Update Burden
+
+Frequency of demographic updates
+
+Biometric Stress
+
+Repeated biometric authentication activity
+
+Temporal Stress
+
+Sudden spikes in Aadhaar lifecycle events
+
+Regional Disparity
+
+State & district-level variance
+
+Normalization: Min–Max / Z-scoreAggregation: Weighted Sum / PCA (to be validated)
+
+## 💻 Usage
+
+Run Notebooks
+
+jupyter notebook
+
+Planned Script Execution
+
+### Data preprocessing
+
+```bash
+python src/preprocessing.py
+```
+
+### Feature engineering
+
+```bash
+python src/feature_engineering.py
+```
+
+### Friction index calculation
+
+```bash
+python src/friction_index.py
+```
+
+### Visualizations
+
+```bash
+python src/visualization.py
+```
+
+## 📈 Expected Outputs
+
+State-wise & district-wise Aadhaar Friction Index
+
+Time-series stress indicators
+
+Anomaly detection signals
+
+Statistical tables & correlation matrices
+
+Heatmaps, trend plots & geospatial visuals
+
+## 🤝 Contributing
+
+- Contributions are welcome 🚀
+
+### Create feature branch
+
+```bash
+git checkout -b feature/your-feature
+```
+
+### Commit changes
+
+```bash
+git commit -m "Add feature"
+```
+
+### Push branch
+
+```bash
+git push origin feature/your-feature
+```
+
+## 📚 Dependencies
+
+```bash
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scipy
+jupyter
+```
+
+## 📄 License
+
+MIT License. See LICENSE file for details.
+
+## 👤 Author
+
+Yogesh Yadav GitHub: [https://github.com/Yogiii13]
+
+## ⚠️ Disclaimer
+
+This project is an independent academic research initiative. It is not affiliated with UIDAI or the Government of India. All results are analytical and indicative only.
+
+Last Updated: January 2026Status: 🔄 In Development
+
+```bash
+This README will evolve as the project matures.
 ```
