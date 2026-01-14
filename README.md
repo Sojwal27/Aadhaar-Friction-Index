@@ -1,12 +1,14 @@
 # Aadhaar Friction Index (AFI) - Complete Analysis & Visualization Platform
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hackathon-UIDAI%20Hackathon-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-Research-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
 </p>
+
 
 ## 📌 Table of Contents
 
@@ -19,7 +21,7 @@
   - [Jupyter Notebooks](#jupyter-notebooks)
   - [Streamlit Dashboard](#streamlit-dashboard)
 - [Dashboard Guide](#dashboard-guide)
-- [Key Metrics & Definitions](#key-metrics--definitions)
+- [Key Metrics and Definitions](#key-metrics-and-definitions)
 - [Data Sources](#data-sources)
 - [Visualizations](#visualizations)
 - [Deployment](#deployment)
