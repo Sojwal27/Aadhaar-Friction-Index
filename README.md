@@ -16,20 +16,27 @@
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Jupyter Notebooks](#jupyter-notebooks)
-  - [Streamlit Dashboard](#streamlit-dashboard)
-- [Dashboard Guide](#dashboard-guide)
-- [Key Metrics & Definitions](#key-metrics--definitions)
+- [Key Metrics and Definitions](#key-metrics-and-definitions)
 - [Data Sources](#data-sources)
-- [Visualizations](#visualizations)
+- [Visualizations Generated](#visualizations-generated)
+- [Output Tables](#output-tables)
 - [Deployment](#deployment)
+- [Customization Guide](#customization-guide)
+- [Troubleshooting](#troubleshooting)
+- [Complete Workflow Example](#complete-workflow-example)
+- [Acknowledgments](#acknowledgments)
 - [Contributing](#contributing)
-- [Support](#support)
-- [License](#license)
+- [Project Statistics](#project-statistics)
+- [Contact](#contact)
+- [Quick Links](#quick-links)
+- [Learning Resources](#learning-resources)
+- [Key Achievements](#key-achievements)
+- [Use Cases](#use-cases)
+- [Final Notes](#final-notes)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 The **Aadhaar Friction Index (AFI)** is a comprehensive data-driven analysis platform that quantifies and visualizes friction points in India's Aadhaar authentication system. It combines statistical analysis, interactive visualizations, and machine learning techniques to identify where the digital identity system creates barriers for citizens.
 
@@ -54,7 +61,7 @@ A multi-layered analysis platform combining:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. **Friction Index Calculation**
 - Combines 4 weighted signal components
@@ -88,7 +95,7 @@ A multi-layered analysis platform combining:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AADHAAR-FRICTION-INDEX/
@@ -168,7 +175,7 @@ AADHAAR-FRICTION-INDEX/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -186,7 +193,7 @@ AADHAAR-FRICTION-INDEX/
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Step 1: Clone Repository
 
@@ -235,7 +242,7 @@ python -c "import pandas, plotly, streamlit; print('✓ All packages installed')
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Option A: Jupyter Notebooks (Deep Analysis)
 
@@ -496,7 +503,7 @@ All States / Andhra Pradesh / Arunachal Pradesh / ... / Telangana
 
 ---
 
-## 📊 Key Metrics & Definitions
+## Key Metrics and Definitions
 
 ### AFI (Aadhaar Friction Index)
 
@@ -615,7 +622,7 @@ District B: 5000 updates, AFI = 75 → VISIBLE RISK
 
 ---
 
-## 📈 Data Sources
+## Data Sources
 
 ### Raw Data Origin
 
@@ -659,7 +666,7 @@ age_group, gender, mobile_linked, ...
 
 ---
 
-## 📊 Visualizations Generated
+## Visualizations Generated
 
 ### Static Charts (PNG - 300 DPI)
 
@@ -716,7 +723,7 @@ age_group, gender, mobile_linked, ...
 
 ---
 
-## 📋 Output Tables
+## Output Tables
 
 ### CSV Format
 
@@ -756,7 +763,7 @@ SELECT state, AVG(avg_afi) FROM afi_by_district GROUP BY state;
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 ### Local Deployment
 
@@ -822,7 +829,7 @@ docker run -p 8501:8501 afi-dashboard
 
 ---
 
-## 🔧 Customization Guide
+## Customization Guide
 
 ### Modify Friction Thresholds
 
@@ -886,7 +893,7 @@ COLOR_LOW = '#006400'       # Dark green
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Problem: Data Files Not Found
 
@@ -970,7 +977,7 @@ for chunk in pd.read_csv('large_file.csv', chunksize=10000):
 
 ---
 
-## 📚 Complete Workflow Example
+## Complete Workflow Example
 
 ### Scenario: Analyze and Present High-Risk Districts
 
@@ -1018,7 +1025,7 @@ state_data.to_excel('report.xlsx', index=False)
 ```
 
 ---
-## 🙏 Acknowledgments
+## Acknowledgments
 
 ### Contributors & Support
 - **UIDAI** - Public API access
@@ -1036,7 +1043,7 @@ state_data.to_excel('report.xlsx', index=False)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 ### How to Contribute
 
@@ -1093,7 +1100,7 @@ git push origin feature/your-feature-name
 - [ ] Translate to regional languages
 
 ---
-## 📊 Project Statistics
+## Project Statistics
 
 | Metric | Value |
 |--------|-------|
@@ -1109,7 +1116,7 @@ git push origin feature/your-feature-name
 
 ---
 
-## 💬 Contact
+## Contact
 
 ### Getting Help
 
@@ -1147,7 +1154,7 @@ What actually happens
 ```
 
 ---
-## 📞 Quick Links
+## Quick Links
 
 | Resource | Link |
 |----------|------|
@@ -1158,7 +1165,7 @@ What actually happens
 | **License** | [MIT License](LICENSE) |
 
 ---
-## 🎓 Learning Resources
+## Learning Resources
 
 ### For Beginners
 1. Read this README
@@ -1186,7 +1193,7 @@ What actually happens
 
 ---
 
-## 🏆 Key Achievements
+## Key Achievements
 
 - ✅ Analyzed 500,000+ Aadhaar records
 - ✅ Covered 700+ districts across India
@@ -1198,7 +1205,7 @@ What actually happens
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 
 ### For Government Agencies
 - Identify districts needing support
@@ -1226,7 +1233,7 @@ What actually happens
 
 ---
 
-## 📧 Final Notes
+## Final Notes
 
 **Thank you** for using the Aadhaar Friction Index project!
 
